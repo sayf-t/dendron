@@ -1,10 +1,10 @@
 ---
 id: 91k9buqszi2c1nrrh3miopf
 title: Languages
-desc: ''
-updated: 1657529005518
+desc: 'all software languages'
+updated: 1657535092979
 created: 1657528513657
 ---
 
-# Index
-
+Test this link [[software.languages.ruby]]
+Another link [Google](https://google.com)

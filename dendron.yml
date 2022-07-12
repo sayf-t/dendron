@@ -22,6 +22,10 @@ commands:
 workspace:
     vaults:
         -
+            fsPath: dependencies/localhost/inbound
+            selfContained: true
+            name: inbound
+        -
             fsPath: .
             selfContained: true
             name: dendron
@@ -106,3 +110,8 @@ publishing:
     enableRandomlyColoredTags: true
     enableTaskNotes: true
     enablePrettyLinks: true
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - inbound
+            - dendron
