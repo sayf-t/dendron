@@ -2,11 +2,11 @@
 id: 04hl4bylwggy1b60mladvz0
 title: Root
 desc: ''
-updated: 1657529022983
+updated: 1657640561885
 created: 1657526640234
 ---
 ## My Index
-
+- [[My daily entries|daily]]
 
 ## Lookup
 
