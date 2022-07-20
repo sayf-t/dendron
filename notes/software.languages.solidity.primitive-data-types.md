@@ -2,16 +2,22 @@
 id: 0d7u9r1mdye3ml1fa8qnc24
 title: Primitive Data Types
 desc: ''
-updated: 1657942524454
+updated: 1658204993131
 created: 1657941682592
 ---
-
+![](./assets/images/solidity-all-types.png)
 - boolean
 - uint
 - int
 - address
 
 ## uint
+
+![](./assets/images/solidity-uint.png)
+
+EVM uses 32 bytes i.e. 256 bits , so best to use uint256
+
+Why are there the smaller types like uint8? can pack the variables together for storage optimisation
 
 uint stands for unsigned integer, meaning non negative integers
 different sizes are available  
@@ -22,7 +28,7 @@ different sizes are available
   `uint is an alias for uint256`
 
 ## int
-
+![](./assets/images/solidity-signed-int.png)
 Negative numbers are allowed for int types.
 Like uint, different ranges are available from int8 to int256  
   `int256 ranges from -2 ** 255 to 2 ** 255 - 1`  

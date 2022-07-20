@@ -2,9 +2,13 @@
 id: 9zd4i83yed6x0jpsuexsgoe
 title: Variables
 desc: ''
-updated: 1657942951561
+updated: 1658212151677
 created: 1657942568516
 ---
+
+## Default values
+
+![](./assets/images/solidity-default-values.png)
 
 There are 3 types of variables in Solidity:
 - local
